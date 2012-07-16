@@ -1,0 +1,70 @@
+/*
+* Expand-o-matic V1.0
+* Copyright 2012 Cory "cr0ybot" Hughart
+* cr0ybot.com/expandomatic
+* Based on Skeleton & Mobile First Foundation
+* getskeleton.com | github.com/adamfairhead/mobile-first-foundation
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 07/16/2012
+*/
+
+/*
+* This stylesheet is for most of your customizations.
+*/
+
+
+/* Table of Content
+==================================================
+	• Base Styles
+	• Media Queries
+	• Font-Face
+*/
+
+
+/* Base Styles
+================================================== */
+
+	body { background-color:#EEE; }
+	
+	h1, h2, h3, h4, h5, h6 { margin-top: 0px !important; padding-top: 10px; }
+	
+	.row {
+		background-color: #FFF;
+	}
+	.column, .columns { padding:10px; }
+
+
+/* Media Queries
+================================================== */
+	
+	/* Larger than Mobile-Portrait */
+	@media only screen and (min-width: 321px) {}
+	
+	/* Larger than Mobile-Landscape */
+	@media only screen and (min-width: 481px) {}
+	
+	/* Larger than Tablet-Portrait */
+	@media only screen and (min-width: 769px) {}
+	
+	/* Larger than Tablet-Landscape/Netbook */
+	@media only screen and (min-width: 1025px) {}
+
+
+/* Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
