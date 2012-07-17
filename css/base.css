@@ -109,6 +109,7 @@
 	.subheader { color: #666; }
 	
 	p { margin: 0 0 20px 0; }
+	p:last-child { margin-bottom: 5px; }
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }
 	
@@ -312,6 +313,9 @@
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
+	.remove-top { margin-top: 0 !important; }
+	.half-top { margin-top: 10px !important; }
+	.add-top { margin-top: 20px !important; }
 
 	.left { float: left; }
 	.right { float: right; }

@@ -32,7 +32,7 @@
 	/* To fix the grid into a certain size, set max-width to width */
 	.row .row { min-width: 0; }
 	
-	.column, .columns { min-width:175px; min-height: 1px; position: relative; }
+	.column, .columns { min-height: 1px; position: relative; }
 	
 	img, object, embed { max-width: 100%; height: auto; }
 	img { -ms-interpolation-mode: bicubic; }

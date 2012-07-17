@@ -25,18 +25,15 @@
 /* Base Styles
 ================================================== */
 
-	body { background-color:#EEE; }
-	
-	h1, h2, h3, h4, h5, h6 { margin-top: 0px !important; padding-top: 10px; }
-	
-	.row {
-		background-color: #FFF;
-	}
-	.column, .columns { padding:10px; }
+	/* Create your own custom styles here! */
 
 
 /* Media Queries
 ================================================== */
+	
+	/*	These breakpoints are here simply as guidelines.
+		Create new breakpoints based on where your design
+		breaks when you resize the window. */
 	
 	/* Larger than Mobile-Portrait */
 	@media only screen and (min-width: 321px) {}
@@ -53,10 +50,10 @@
 
 /* Font-Face
 ================================================== */
-/* 	This is the proper syntax for an @font-face file
-		Just create a "fonts" folder at the root,
-		copy your FontName into code below and remove
-		comment brackets */
+
+	/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root, copy your
+		FontName into code below and remove comment brackets */
 
 /*	@font-face {
 	    font-family: 'FontName';
