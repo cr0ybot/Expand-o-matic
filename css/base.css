@@ -108,7 +108,7 @@
 	h6 { font-size: 14px; line-height: 21px; margin-bottom: 4px; }
 	.subheader { color: #666; }
 	
-	p { margin: 0 0 20px 0; }
+	p { margin: 0 0 10px 0; }
 	p:last-child { margin-bottom: 5px; }
 	p img { margin: 0; }
 	p.lead { font-size: 21px; line-height: 27px; color: #777;  }

@@ -99,12 +99,7 @@
 		font-size: 16px;
 	}
 	
-	.row {
-		background-color: #FFF;
-		margin-top: 20px;
-		margin-bottom: 0px;
-		border-bottom: solid 3px #CCC;
-	}
+	/*
 	.row .row {
 		background-color: transparent;
 		margin-top: 0;
@@ -112,12 +107,21 @@
 		border: none;
 	}
 	.column, .columns { padding: 10px; }
+	*/
 	
+	.padded { padding: 10px; }
 	.nopadding { padding: 0; }
-	.dark {
+	.whitebox {
+		background-color: #FFF;
+		margin-top: 20px;
+		margin-bottom: 0px;
+		border-bottom: solid 3px #CCC;
+	}
+	.darkbox {
 		background-color: #EEE;
 		border: solid 3px #FFF;
 	}
+	.footer { margin-top:10px; }
 
 
 /* Media Queries
