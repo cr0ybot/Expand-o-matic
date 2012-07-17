@@ -2,7 +2,7 @@
 
 _A mobile-first CSS grid framework based on Skeleton and Foundation_
 
-Expand-o-matic is based on two wonderful CSS responsive grid systems, namely [Skeleton](getskeleton.com) and the [mobile-first version of Foundation](github.com/adamfairhead/mobile-first-foundation). It is also much simpler (or more basic, if you prefer) and consequentially may have less of a learning curve. Based on a mobile-first responsive grid, you should be able to quickly develop websites that look beautiful at any size and on any device.
+Expand-o-matic is based on two wonderful CSS responsive grid systems, namely [Skeleton](http://www.getskeleton.com) and the [mobile-first version of Foundation](http://www.github.com/adamfairhead/mobile-first-foundation). It is also much simpler (or more basic, if you prefer) and consequentially may have less of a learning curve. Based on a mobile-first responsive grid, you should be able to quickly develop websites that look beautiful at any size and on any device.
 
 Preview page: http://cr0ybot.github.com/Expand-o-matic
 
