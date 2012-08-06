@@ -38,22 +38,10 @@
 	img { -ms-interpolation-mode: bicubic; }
 	#map_canvas img, .map_canvas img {max-width: none!important;}
 	
-	/* Responding to Mobile Affordances */
-	.hide-on-phones { display: none !important; }
-	.hide-on-tablets { display: block !important; }
-	.hide-on-desktops { display: block !important; }
-	
-	.show-on-phones { display: block !important; }
-	.show-on-tablets { display: none !important; }
-	.show-on-desktops { display: none !important; }
-	
-	table.hide-on-phones { display: none !important; }
-	table.hide-on-tablets { display: table !important; }
-	table.hide-on-desktops { display: table !important; }
-	
-	table.show-on-phones { display: table !important; }
-	table.show-on-tablets { display: none !important; }
-	table.show-on-desktops { display: none !important; }
+/* Visibility Classes ---------------------- */
+	.hide, .small-view.hide { display: none !important; }
+	.show, .small-view.show { display: block !important; }
+	table.show, table.small-view.show { display: table !important; }
 
 
 /* Larger than 480 (481 -> 768)
@@ -63,22 +51,10 @@
 		
 		.row .centered { float: none; margin: 0 auto !important; }
 		
-		/* Responding to Mobile Affordances */
-		.hide-on-phones { display: block !important; }
-		.hide-on-tablets { display: none !important; }
-		.hide-on-desktops { display: block !important; }
-		
-		.show-on-phones { display: none !important; }
-		.show-on-tablets { display: block !important; }
-		.show-on-desktops { display: none !important; }
-		
-		table.hide-on-phones { display: table !important; }
-		table.hide-on-tablets { display: none !important; }
-		table.hide-on-desktops { display: table !important; }
-		
-		table.show-on-phones { display: none !important; }
-		table.show-on-tablets { display: table !important; }
-		table.show-on-desktops { display: none !important; }
+/* Visibility Classes ---------------------- */
+	.medium-view.hide { display: none !important; }
+	.medium-view.show { display: block !important; }
+	table.medium-view.show { display: table !important; }
 		
 	}
 
@@ -149,22 +125,10 @@
 		.pull-nine	{ right: 78.3%; }
 		.pull-ten	{ right: 87.0%; }
 		
-		/* Responding to Mobile Affordances */
-		.hide-on-phones { display: block !important; }
-		.hide-on-tablets { display: block !important; }
-		.hide-on-desktops { display: none !important; }
-		
-		.show-on-phones { display: none !important; }
-		.show-on-tablets { display: none !important; }
-		.show-on-desktops { display: block !important; }
-		
-		table.hide-on-phones { display: table !important; }
-		table.hide-on-tablets { display: table !important; }
-		table.hide-on-desktops { display: none !important; }
-		
-		table.show-on-phones { display: none !important; }
-		table.show-on-tablets { display: none !important; }
-		table.show-on-desktops { display: table !important; }
+/* Visibility Classes ---------------------- */
+  	.large-view.hide { display: none !important; }
+  	.large-view.show { display: block !important; }
+  	table.large-view.show { display: table !important; }
   
    }
 
@@ -173,6 +137,11 @@
 ================================================== */
 
 	@media only screen and (min-width: 1025px) {}
+
+/* Visibility Classes ---------------------- */
+  	.xlarge-view.hide { display: none !important; }
+  	.xlarge-view.show { display: block !important; }
+  	table.xlarge-view.show { display: table !important; }
 
 
 /* Clearing
